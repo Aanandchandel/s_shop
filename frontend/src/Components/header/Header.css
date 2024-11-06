@@ -1,0 +1,30 @@
+.Header{
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+}
+.headerdiv1,.headerdiv2{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    gap: 1rem;
+    /* background-color: black; */
+
+}
+.headerdiv2>a{
+    padding: 2px 5px 2px 5px;
+    box-sizing: content-box;
+    border: 1px solid rgba(0, 0, 0,0.5);
+    border-radius: 20%;
+}
+.headerdiv1>a{
+    margin-left: 1rem;
+}
+@media only screen and (max-width: 700px) {
+    body {
+     filter: blur(10px);
+        
+    }
+  }
