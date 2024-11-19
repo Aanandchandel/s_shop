@@ -1,6 +1,11 @@
+import { useEffect } from "react";
 import "./Header.css";
-import { Link } from "react-router-dom";
+import { Link, } from "react-router-dom";
+
 const Header=()=>{
+    useEffect(()=>{
+        document.title="Aanand"
+    },[])
     return<div className="Header">
         <div className="headerdiv1">
             <Link>Home</Link>
